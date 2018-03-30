@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(leadtemplate11_green_06.jpg) repeat left top;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	color:#363636;
+	line-height:24px;
+}
+a{color:#363636;}
+a:hover{color:#145128;}
+h1{ font-size:24px; font-weight:normal; margin:8px 0 15px; }
+h2{ font-size:30px; font-weight:normal; font-style: italic; margin:5px 0 15px;}
+#wrapper {
+	background:url(leadtemplate11_green_02.jpg) repeat-x left top;
+	width:100%;
+}
+#main {
+	width:984px;
+	margin:0 auto;
+}
+.clr {
+	clear:both;
+}
+p {
+	margin:8px 0 10px;
+}
+#header {
+	min-height:140px;
+	position:relative;
+}
+#header .logo {
+	position:absolute;
+	left:8px;
+	top:24px;
+	z-index:500;
+	background: url("leadtemplate11_green_03.png") no-repeat;
+	height:108px;
+	padding: 20px 30px 30px;
+	width:275px;
+}
+#header .righttop {
+	float:right;
+	display:block;
+	width:640px;
+}
+#header .righttop .callus {
+    background: url("leadtemplate11_green_09.png") no-repeat scroll left 6px transparent;
+    color: #FFFFFF;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+#header .righttop .topnav {
+    float: right;
+    height: 25px;
+    margin-bottom: 18px;
+    margin-top: 22px;
+    width: 400px;
+}
+#header .righttop .topnav ul {
+	list-style:none;
+}
+#header .righttop .topnav li {
+	float:left;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	font-size:12px;
+}
+#header .righttop .topnav li a {
+	background: url("leadtemplate11_green_06.png") repeat-x scroll left top transparent;
+	color: #FFFFFF;
+	margin-right: 12px;
+	padding: 5px 10px 8px;
+	text-decoration: none;
+}
+#header .righttop .menu{ float:right; display:block;}
+#header .righttop .menu ul{ list-style:none;}
+#header .righttop .menu li{ float:left; display:block;}
+#header .righttop .menu li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #171616;
+    display: block;
+    font-size: 18px;
+    margin-right: 8px;
+    padding: 28px 14px 29px;
+    text-decoration: none;
+}
+
+
+#header .righttop .menu li a:hover {
+    background: none repeat scroll 0 0 #131313;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin-right: 8px;
+    padding: 28px 14px 29px;
+    text-decoration: none;
+}
+#banner {
+	height:424px;
+	text-align:center;
+	width:984px; 
+}
+
+#sitepart{ padding:30px 0 20px;}
+#sitepart-inner{padding:40px 20px 20px; background:#fff; border:1px solid #CCC;}
+#sitepart-inner .leftpartLO {
+    float: left;
+    text-align: center;
+    width: 178px;
+	color:#353933;
+}
+#sitepart-inner .rightpartLO {
+    float: right;
+    margin:0 10px;
+    width:700px;
+}
+.pad{padding:0 20px 0;}
+.col-1{ float:left; width:266px; padding-left:4px;}
+.col-2 {
+    float: left;
+    padding: 0 33px;
+    width: 380px;
+}
+.col-2-big {
+    float: left;
+    padding: 0 13px;
+    width:640px;
+}
+.col-3{ float:right; width:267px;}
+.col-3 .getquote{}
+.getquote .form-block{ background:#fff; padding:20px 10px;}
+.getquote .form-block ul {
+	list-style:none;
+	
+}
+.getquote .form-block  li {
+	padding:8px 10px 5px;
+}
+.getquote .form-block  li span {
+	line-height: 22px;
+	padding-left:0px;
+	color:#30302e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.getquote .form-block .security {
+    background: url("images/lock.png") no-repeat scroll 20px top transparent;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top:7px;
+    padding-left: 25px;
+    text-align: center;
+}
+.getquote .form-block select {
+	width:230px;
+	font-size:12px;
+		height:25px;
+	padding:3px;
+	color:#393939;
+	border:1px solid #b5b5b5;
+	background:url(images/uslending1_15.png) repeat-x left bottom;
+}
+.getquote .form-block .textfiled {
+	width:103px;
+	font-size:12px;
+	padding:3px;
+	height:17px;
+	color:#393939;
+		background:url(uslending1_15.png) repeat-x left bottom;
+		border:1px solid #b5b5b5;
+}
+.getquote .form-block .smalldiv {
+    float: left;
+    margin-bottom:0px;
+    width: 113px;
+	color:#fff;
+}
+
+.left-align{ float:left;}
+.right-align{ float:right;}
+ 
+#footer{ background:url(leadtemplate11_green_42.png) repeat-x left top; height:139px; }
+#footer .foot-in{ width:944px; margin:0 auto; color:#7e7e7e; line-height:18px; padding:20px;}
+#footer .foot-in a{ color:#7e7e7e;}
+#footer .foot-in a:hover{ color:#ccc;}
